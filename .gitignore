@@ -9,8 +9,6 @@
 /bin
 
 # Environment & secrets
-.env
-.env.*
 !.env.example
 secrets.env
 *.secret
@@ -55,7 +53,6 @@ desktop.ini
 
 # IDE & tools
 .idea/
-.vscode/
 .claude/
 .gokin/
 .mcp.json
@@ -99,3 +96,4 @@ logs/
 # (under "IDE & tools"), which covers everything inside it — only this
 # out-of-directory file needs its own rule.
 GOKIN.local.md
+config.bat
